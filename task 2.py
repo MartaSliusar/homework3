@@ -1,3 +1,3 @@
 words = input()
-words = words.title()
+words = words.replace("_", "").title()
 print(words)

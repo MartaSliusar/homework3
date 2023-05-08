@@ -1,10 +1,9 @@
-numbers = int(input())
-first_number = numbers//100
-second_number = numbers//10%10
-third_number = numbers%10
-#print(first_number, second_number, third_number)
-suma = first_number+second_number+third_number
-print (suma)
+numbers = input("Enter three digit number: ")
+first_number = numbers[0]
+second_number = numbers[1]
+third_number = numbers[2]
+sum = int(first_number) + int(second_number) + int(third_number)
+print("sum: ", sum)
 
-numbers = int(input())
-print (numbers//100+numbers//10%10+numbers%10)
+numbers = int(input("Enter three digit number: "))
+print(numbers//100 + numbers//10%10 + numbers%10)
